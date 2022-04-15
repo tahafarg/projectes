@@ -1,0 +1,168 @@
+/**{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    border: red 2px solid;
+    background-color: ;
+    margin: 0 auto;
+}
+
+.container img{
+    width: 50px;
+    margin-left: 10px;
+}
+.container ul{
+    display: inline-block;
+    float: right;
+}
+.container ul li{
+    display: inline-block;
+    margin-top:15px ;
+    padding: 15px;
+}
+.container ul li a{
+    text-decoration: none;
+}
+.header{
+    background-color: lightgreen;
+}
+p{
+    color:black;
+    background-color: white;
+    border-radius: 10px;
+    width: 70%;
+    margin: 15px;
+}
+*/
+.top{
+    width: 100%;
+    background-color:red  ;
+    margin: 0 ;
+    
+}
+.fv  {
+    
+    display: inline-block;
+    color: white;
+    font-size: large ;
+    
+}    
+ 
+.num{
+    padding: 0% 10px;
+     margin: 0 10%;
+    display: inline-block;
+}
+.kalam{
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+} 
+
+.fv{
+    width: 100%;
+    margin: 0 ;
+}
+
+.fv ul{
+    display: inline-block;
+     float: right; 
+}
+.fv ul li{
+    display: inline-block;
+    margin-top:15px ;
+    padding: 15px;
+}
+.fv ul li a .fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+
+.fv ul li a .fa-google{
+    display: inline-block;
+    margin-top:15px ;
+    padding: 15px;
+    background: #dd4b39;
+    color: white;
+}
+.fv .fa-twitter ul li{
+    display: inline-block;
+    margin-top:15px ;
+    padding: 15px;
+    background: #55ACEE;;
+    color: white;
+}
+.fv ul li a{
+    text-decoration: none;
+}
+.test1{
+    width: 100%;
+    background-color:white ;
+    margin: 0 auto;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.test1 .container{
+    width: 80%;
+    background-color:white ;
+    margin: 0 auto;
+}
+
+.test1 .container img{
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+.test1 .container ul{
+    display: inline-block;
+    float: right;
+}
+.test1 .container ul li{
+    display: inline-block;
+    margin-top:15px ;
+    padding: 15px;
+}
+.test1 .container ul li a{
+    text-decoration: none;
+
+}
+.ip {
+    text-align: center;
+    background-color: rgb(88, 17, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.ip h1 {
+padding: 10%;
+
+}
+.cards{
+    width: 80%;
+    margin: 0 10%;
+}
+.card {
+    width: 27%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 0%;
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    display: inline-block;
+  }
+  .card img{
+      width: 100%;
+      
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
